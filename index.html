@@ -1,3 +1,78 @@
-<h1>제목</h1>
-<h2>부제목</h2>
-<h3>본문</h3>
+<!DOCTYPE HTML>
+<head>
+  <title>The Neutrl</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://theneutrl.com/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="js/include.js"></script>
+<style>
+     .mybg{background:#4ca1af;}
+</style>
+
+</head>
+
+<body class=mybg>
+  <!--nav-->
+  <nav include-html="js/nav.html"></nav>
+  <!--nav-->
+
+  <div class="container myparagraph">
+    <div>
+        <h1 class=editorchoice style="text-decoration: underline;"><a class=editorchoice href=./editorchoice/index.html>Editor's Choice</a></h1>
+    </div>
+     
+    <div class="row myrow1 justify-content-between">
+        <div class="col-md-6">
+            <p style="font-size: 5vh; color:black;">Amazon.com, Inc</p>
+
+            <p> + This Website is currently on beta-service.</p>
+            <p> + Look Overview to look in-depth information.</p>
+
+        </div>
+      
+        <div class="col-md-5 chart">
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+            <div id="basic-area-chart"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/AMZN/" rel="noopener" target="_blank"><span class="blue-text">AMZN Chart</span></a> by TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+            new TradingView.widget(
+            {
+            "container_id": "basic-area-chart",
+            "width": "100%",
+            "height": "100%",
+            "symbol": "AMZN",
+            "interval": "D",
+            "timezone": "exchange",
+            "theme": "Light",
+            "style": "3",
+            "toolbar_bg": "#f1f3f6",
+            "hide_top_toolbar": true,
+            "save_image": false,
+            "locale": "en"
+          }
+            );
+            </script>
+        </div>
+          <!-- TradingView Widget END -->
+      </div>
+        
+    </div>
+</div>
+
+<!--footer-->
+<footer include-html="js/footer.html"></footer>
+<!--footer-->
+
+</body>
+
+<script>
+  includeHTML();
+</script>
+
+</html>

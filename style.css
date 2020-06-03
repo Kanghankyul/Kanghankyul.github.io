@@ -1,0 +1,77 @@
+
+    *{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans','Allerta Stencil', Arial, sans-serif;}
+    a,a:hover,a:visited {text-decoration: none; color:black;}
+    .bodyheight{min-height:95vh;}
+
+    /*navbar setup start*/
+    .nav-item{padding-left:30px; font-size:1.3rem;}
+    .navbar-brand{padding-right: 85px; vertical-align: middle;}
+    .nav-item{text-align: center;}
+    /*navbar setup end*/
+    
+    /*footer setup start*/
+    .footerlist{display:inline-block; margin :10px; color:black; text-decoration: none;}
+    .myfooter{position: relative; margin-bottom:0px; bottom: 0; width:100%; text-align: center; background:#f3f3f3;}
+    .myfooterdark{position: relative; margin-bottom:0px; bottom: 0; width:100%; text-align: center; background:#353a3f;}
+    .footercolor{color:darkgray;}
+    .mylegal{list-style: none; padding: 15px; margin:0; text-decoration: none;}
+    /*navbar setup end*/
+    
+    /*article setup start*/
+    h1{padding: auto; margin-top:30px; margin-bottom:30px; font-size:9vh; color:black;}
+    p{font-size: 2.5vh; line-height: 1.5;}
+    .section{font-size: 2.5vh;}
+    .smalltitle{font-weight: bold;}
+    .section{font-size: 2.5vh;}
+    .myparagraph{min-height:100vh; margin-top:30px; margin-bottom:30px;}
+    .mylist{color:black; font-size: 3vh;  border-top-style: solid; border-color: black; padding-top: 10px; padding-bottom: 10px;}
+    /*article setup end*/
+
+
+
+    /*special setup start*/
+    .mymail,.mylink{color:black; text-decoration:underline; font-weight: bold;}
+    /*.mylink{color:black; text-decoration:underline; font-weight: bold;}*/
+    .readdis{color: rgb(230, 113, 113) !important; font-weight: bold;}
+    .myexplain{font-size: 3vh; margin-bottom: 30px; color:rgb(117, 117, 117);}
+    /*special setup end*/
+
+
+    /*special hyperlink setup START*/
+    .editorchoice:hover{color:#b3b3b3;}
+    .disclaimer:hover{color:#92c978;}
+    .accessbility:hover{color:#d8d588;}
+    .privacy:hover{color:#ce9cd6;}
+    .buyersguide:hover{color:#c9d6ff}
+    .reviews:hover{color:#87bdda;}
+    .insights:hover{color:#09bdb4;}
+    .abouttheteam:hover{color:#d6d24d;}
+    /*special hyperlink setup END*/
+
+
+
+    /*trading view widget start*/
+    .tradingview-widget-container {margin-bottom: 30px;}
+    .chart{height:75vh;}
+    .finance{height:65vh; margin-bottom: 20px;}
+    /*trading view widget end*/
+
+    @media(max-width:1200px)
+    {
+        .nav-item{padding-left:30px; padding-right:30px;}
+    }
+    
+
+    @media(max-device-width:1366px) and (min-device-width:800px)
+    {
+        h1{padding: auto; margin-top:30px; margin-bottom:30px; font-size:11vw; color:black;}
+        .myexplain{font-size: 2vh; margin-bottom: 30px; color:grey;}
+        .mylist{color:black; font-size: 2vh;  border-top-style: solid; border-color: black; padding-top: 10px; padding-bottom: 10px;}
+        .chart{height: 50vh;}
+    }
+
+    @media(max-width:800px)
+    {
+        h1{padding: auto; margin-top:30px; margin-bottom:30px; font-size:9vw; color:black;}
+        .myexplain{font-size: 2.2vh; margin-bottom: 30px; color:grey;}
+    }
